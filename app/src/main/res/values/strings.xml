@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ImpotApp</string>
+    <string name="title">Calcul des impôts</string>
+    <string name="surface">Surface (m²)</string>
+    <string name="pieces">Nombre de pièces</string>
+    <string name="piscine">Piscine</string>
+    <string name="calculer">Calculer</string>
 </resources>

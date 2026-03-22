@@ -43,7 +43,8 @@ public class MainActivity extends AppCompatActivity {
         double total = impotBase + supplement;
 
         resultView.setText(
-                "Impôt de base : " + impotBase + " DH\n" +
+                "Résultat\n\n" +
+                        "Impôt de base : " + impotBase + " DH\n" +
                         "Supplément : " + supplement + " DH\n" +
                         "Total : " + total + " DH"
         );

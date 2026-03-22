@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calcul des impôts"
+        android:text="@string/title"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_marginBottom="20dp"
@@ -18,8 +18,8 @@
         android:id="@+id/input_surface"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Surface (m²)"
-        android:background="@android:drawable/edit_text"
+        android:hint="@string/surface"
+        android:inputType="number"
         android:padding="12dp"
         android:layout_marginBottom="10dp"/>
 
@@ -27,7 +27,8 @@
         android:id="@+id/input_pieces"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nombre de pièces"
+        android:hint="@string/pieces"
+        android:inputType="number"
         android:padding="12dp"
         android:layout_marginBottom="10dp"/>
 
@@ -35,18 +36,17 @@
         android:id="@+id/checkbox_piscine"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Piscine"
+        android:text="@string/piscine"
         android:layout_marginBottom="15dp"/>
 
     <Button
         android:id="@+id/button_calcul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calculer"
+        android:text="@string/calculer"
         android:backgroundTint="#6A1B9A"
         android:textColor="#FFFFFF"
         android:padding="12dp"/>
-
 
     <TextView
         android:id="@+id/result"
